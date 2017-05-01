@@ -8,7 +8,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * Created by paul on 1/5/17.
+ * @author cruskit
  */
 public class StrategyOutcomes {
 

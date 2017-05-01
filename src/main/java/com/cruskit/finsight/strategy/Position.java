@@ -6,7 +6,7 @@ import java.time.LocalDateTime;
 /**
  * Represents a financial position held at a point in time.
  *
- * Created by paul on 1/5/17.
+ * @author cruskit
  */
 public class Position {
 

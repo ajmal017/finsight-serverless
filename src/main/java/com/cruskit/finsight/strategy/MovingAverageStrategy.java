@@ -10,7 +10,7 @@ import java.util.List;
 /**
  * Determines uses a moving average strategy to determine buy and sell dates for a stock.
  * <p>
- * Created by paul on 1/5/17.
+ * @author cruskit
  */
 public class MovingAverageStrategy {
 

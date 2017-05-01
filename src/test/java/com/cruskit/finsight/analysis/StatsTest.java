@@ -1,6 +1,5 @@
 package com.cruskit.finsight.analysis;
 
-import com.sun.javafx.font.Metrics;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;

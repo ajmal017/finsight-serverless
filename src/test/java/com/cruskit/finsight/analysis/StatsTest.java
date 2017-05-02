@@ -32,8 +32,8 @@ public class StatsTest {
         samples.add(new Metric(refDate.plusDays(2), BigDecimal.valueOf(3)));
 
         List<Metric> averages = new LinkedList<>();
-        averages.add(new Metric(refDate.plusDays(1), BigDecimal.valueOf(1.5).setScale(10)));
-        averages.add(new Metric(refDate.plusDays(2), BigDecimal.valueOf(2.5).setScale(10)));
+        averages.add(new Metric(refDate.plusDays(1), BigDecimal.valueOf(1.5).setScale(Stats.SCALE)));
+        averages.add(new Metric(refDate.plusDays(2), BigDecimal.valueOf(2.5).setScale(Stats.SCALE)));
 
         testParams.add(new Object[]{samples, averages, 2});
 
@@ -45,7 +45,7 @@ public class StatsTest {
         samples.add(new Metric(refDate.plusDays(2), BigDecimal.valueOf(3)));
 
         averages = new LinkedList<>();
-        averages.add(new Metric(refDate.plusDays(2), BigDecimal.valueOf(2).setScale(10)));
+        averages.add(new Metric(refDate.plusDays(2), BigDecimal.valueOf(2).setScale(Stats.SCALE)));
 
         testParams.add(new Object[]{samples, averages, 3});
 

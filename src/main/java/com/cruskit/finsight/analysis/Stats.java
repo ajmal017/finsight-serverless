@@ -12,6 +12,8 @@ import java.util.List;
  */
 public class Stats {
 
+    public final static int SCALE = 10;
+
     /**
      * Produce a moving average for the list of @Metrics passed in.
      * <p>
@@ -42,7 +44,7 @@ public class Stats {
 
             // Use the date from the last metric in the period
             Metric average = new Metric(metrics.get(i + period - 1).getDateTime(),
-                    total.divide(BigDecimal.valueOf(period), 10, BigDecimal.ROUND_HALF_UP));
+                    total.divide(BigDecimal.valueOf(period), SCALE, BigDecimal.ROUND_HALF_UP));
             averages.add(average);
         }
 

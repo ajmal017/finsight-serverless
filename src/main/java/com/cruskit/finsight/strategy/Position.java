@@ -78,4 +78,14 @@ public class Position {
         result = 31 * result + lastAction.hashCode();
         return result;
     }
+
+    @Override
+    public String toString() {
+        return "Position{" +
+                "date=" + date +
+                ", numUnits=" + numUnits +
+                ", cash=" + cash +
+                ", lastAction='" + lastAction + '\'' +
+                '}';
+    }
 }

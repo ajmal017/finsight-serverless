@@ -10,7 +10,7 @@ import java.util.Map;
 /**
  * @author cruskit
  */
-public class StrategyOutcomes {
+public class StrategyOutcome {
 
     private LocalDateTime firstAllowedBuyDate;
 
